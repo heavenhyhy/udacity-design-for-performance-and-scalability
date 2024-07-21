@@ -1,0 +1,25 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+9.28,12543.89,150535.96,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,77.85,934.20,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Public IPv4 Address,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),,Gateway Load Balancer,0,563.9300000000001,6767.16,USD,,"Number of Availability Zones that Gateway Load Balancer is deployed to (1), Number of Gateway Load Balancer Endpoints (1), Average connection/flow duration (3 seconds), Average number of new connections/flows (20000 per second), Total processed bytes (100 GB per hour)"
+My Estimate,US East (N. Virginia),,AWS Fargate,0,4120.37,49444.44,USD,,"Operating system (Linux), CPU Architecture (ARM), Average duration (24 hours), Number of tasks or pods (15 per day), Amount of ephemeral storage allocated for Amazon ECS (50 GB)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,182.5,2190.00,USD,,Number of Application Load Balancers (4)
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,2533.74,30404.88,USD,,"Storage amount (1000 GB), Storage volume (General Purpose SSD (gp2)), Nodes (1), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Total Size of Backup Processed for Export (GB) (200 per month), Additional backup storage (500 GB)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,2164,25968.00,USD,,"Data transfer out to internet (10000 GB per month), Number of requests (HTTPS) (500 per second)"
+My Estimate,US East (N. Virginia),,S3 Standard,3.2,259.7,3119.60,USD,,"S3 Standard storage (10000 GB per month), PUT, COPY, POST, LIST requests to S3 Standard (500000), GET, SELECT, and all other requests from S3 Standard (500000), Data returned by S3 Select (10000 GB per month), Data scanned by S3 Select (10000 GB per month), S3 Standard Average Object Size (16 MB)"
+My Estimate,US East (N. Virginia),,S3 Intelligent - Tiering,4.8,115.8,1394.40,USD,,"S3 INT Average Object Size (16 MB), S3 INT storage (5000 GB per month), Percentage of Storage in INT-Frequent Access Tier (1)"
+My Estimate,US East (N. Virginia),,S3 Standard - Infrequent Access,1.28,25,301.28,USD,,"S3 Standard-IA storage (2000 GB per month), S3 Standard-IA Average Object Size (16 MB)"
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,2501,30012.00,USD,,Hosted Zones (2)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

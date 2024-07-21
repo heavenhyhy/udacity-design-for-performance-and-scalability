@@ -1,0 +1,11 @@
+Initial: https://calculator.aws/#/estimate?id=6f9cb2ce23a4e4a492b813af88d30aa73db0b0f4
+
+Reduced: https://calculator.aws/#/estimate?id=ad673bbeaf4a2c309fd14525cf2b1de0bc472cb3
+- AWS Fargate can reduce Memory and Average duration as we have the throughput is not the same for 24hours, it can balance through the Application Load Balancer
+- Route53 Traffic Flow can reduce as well, have a bit delay latency trade off with cost.
+- RDS instance can reduce a bit since we stored static content (image, video,..) in S3, the RDS instance only handles other info that is not too overloaded
+
+Increased: https://calculator.aws/#/estimate?id=d822c20857530a8f503123d9e13170dead0fc9d3
+- AWS Fargate can increase to much power, reduce the latency for waiting Load Balancer to spin up new Task instance during the busy hours
+- Route53 Traffic Flow can increase, have better latency trade off with cost.
+- RDS instance can increase to reduce latency for access other info.
