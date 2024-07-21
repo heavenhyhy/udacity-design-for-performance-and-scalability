@@ -27,7 +27,7 @@ resource "aws_instance" "udacity_t2" {
 
 # TODO: provision 2 m4.large EC2 instances named Udacity M4
 resource "aws_instance" "udacity_m4" {
-  count = 2
+  count = 0
   ami           = "ami-06c68f701d8090592" // al2023-ami-2023.5.20240701.0-kernel-6.1-x86_64
   instance_type = "m4.large"
   
